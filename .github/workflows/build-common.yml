@@ -133,6 +133,3 @@ jobs:
       - name: Build scan
         if: ${{ !cancelled() && hashFiles('build-scan.txt') != '' }}
         run: cat build-scan.txt
-
-  markdown-lint-check:
-    uses: ./.github/workflows/reusable-markdown-lint.yml
