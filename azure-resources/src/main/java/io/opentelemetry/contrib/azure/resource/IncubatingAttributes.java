@@ -24,6 +24,7 @@ final class IncubatingAttributes {
     public static final String AZURE_AKS = "azure.aks";
     public static final String AZURE_FUNCTIONS = "azure.functions";
     public static final String AZURE_APP_SERVICE = "azure.app_service";
+    public static final String AZURE_CONTAINER_APPS = "azure.container_apps";
 
     private CloudPlatformIncubatingValues() {}
   }
