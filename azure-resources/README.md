@@ -6,9 +6,9 @@ The following OpenTelemetry semantic conventions will be detected:
 
 | Resource attribute          | VM       | Functions       | App Service       | Containers           |
 |-----------------------------|----------|-----------------|-------------------|----------------------|
-| cloud.platform              | azure_vm | azure_functions | azure_app_service | azure_container_apps |
+| cloud.platform              | azure.vm | azure.functions | azure.app_service | azure.container_apps |
 | cloud.provider              | azure    | azure           | azure             | azure                |
-| cloud.resource.id           | auto     |                 | auto              |                      |
+| cloud.resource_id           | auto     |                 | auto              |                      |
 | cloud.region                | auto     | auto            | auto              |                      |
 | deployment.environment.name |          |                 | auto              |                      |
 | host.id                     | auto     |                 | auto              |                      |
@@ -25,7 +25,7 @@ The following OpenTelemetry semantic conventions will be detected:
 | faas.name                   |          | auto            |                   |                      |
 | faas.version                |          | auto            |                   |                      |
 | faas.instance               |          | auto            |                   |                      |
-| faas.faas.max_memory        |          | auto            |                   |                      |
+| faas.max_memory             |          | auto            |                   |                      |
 
 ## Component Owners
 
